@@ -65,13 +65,13 @@ export default function CashFlow({ transactions }) {
                         fontSize={12}
                         tickLine={false}
                         axisLine={false}
-                        tickFormatter={(value) => `$${value.toFixed(2)}`}
+                        tickFormatter={(value) => `₹${value.toFixed(2)}`}
                     />
                     <Tooltip
                         cursor={{ fill: "rgba(255, 255, 255, 0.05)" }}
                         contentStyle={{ background: "#1c1c1c", border: "none" }}
                         labelStyle={{ color: "#fff" }}
-                        formatter={(value) => `$${value.toFixed(2)}`}
+                        formatter={(value) => `₹${value.toFixed(2)}`}
                     />
                     <Area
                         type="monotone"

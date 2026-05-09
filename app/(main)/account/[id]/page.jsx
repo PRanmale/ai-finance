@@ -40,7 +40,7 @@ export default async function AccountsPage({params}) {
                     </CardHeader>
                     <CardContent>
                         <div className="text-2xl font-bold text-white">
-                            ${parseFloat(account.balance).toFixed(2)}
+                            ₹{parseFloat(account.balance).toFixed(2)}
                         </div>
                         <p className="text-xs text-muted-foreground">
                             Available for withdrawal

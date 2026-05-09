@@ -7,7 +7,7 @@ export const stringify = {
       transactions: "Transaction",
       banner: "New: AI-Powered Financial Insights",
       bannerSubtitle:
-            "Harness the power of AI to transform your financial data into actionable insights.Make smarter decisions, faster than ever before.",
+            "Harness the power of AI to transform your financial data into actionable insights. Make smarter decisions, faster than ever before.",
       getStarted: "Get Started",
       learnMore: "Learn More",
       secured: "Secured ",

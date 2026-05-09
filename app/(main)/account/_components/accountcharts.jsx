@@ -111,7 +111,7 @@ export default function AccountChart({ transactions }) {
                     <div className="text-center">
                         <p className="text-muted-foreground">Net</p>
                         <p
-                            className={`text-lg font-bold ₹{
+                            className={`text-lg font-bold ${
                                 totals.income - totals.expense >= 0
                                     ? "text-green-500"
                                     : "text-red-500"
@@ -138,10 +138,10 @@ export default function AccountChart({ transactions }) {
                                 fontSize={12}
                                 tickLine={false}
                                 axisLine={false}
-                                tickFormatter={(value) => `$${value}`}
+                                tickFormatter={(value) => `₹${value}`}
                             />
                             <Tooltip
-                                formatter={(value) => [`$${value}`, undefined]}
+                                formatter={(value) => [`₹${value}`, undefined]}
                                 contentStyle={{
                                     backgroundColor: "hsl(var(--popover))",
                                     border: "1px solid hsl(var(--border))",
